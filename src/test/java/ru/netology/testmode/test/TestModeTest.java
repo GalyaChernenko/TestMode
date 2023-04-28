@@ -1,18 +1,18 @@
 
 package ru.netology.testmode.test;
 
-        import com.codeborne.selenide.Condition;
-        import org.junit.jupiter.api.BeforeEach;
-        import org.junit.jupiter.api.DisplayName;
-        import org.junit.jupiter.api.Test;
+import com.codeborne.selenide.Condition;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-        import static com.codeborne.selenide.Selenide.*;
-        import static ru.netology.testmode.data.DataGenerator.Registration.getRegisteredUser;
-        import static ru.netology.testmode.data.DataGenerator.Registration.getUser;
-        import static ru.netology.testmode.data.DataGenerator.getRandomLogin;
-        import static ru.netology.testmode.data.DataGenerator.getRandomPassword;
+import static com.codeborne.selenide.Selenide.*;
+import static ru.netology.testmode.data.DataGenerator.Registration.getRegisteredUser;
+import static ru.netology.testmode.data.DataGenerator.Registration.getUser;
+import static ru.netology.testmode.data.DataGenerator.getRandomLogin;
+import static ru.netology.testmode.data.DataGenerator.getRandomPassword;
 
- class TestModeTest {
+class TestModeTest {
 
     @BeforeEach
     void setup() {
